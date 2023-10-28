@@ -1,0 +1,104 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1665707702198-598165c33215?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8&w=1000&q=80");
+    background-size: cover; /* Escalar la imagen para que cubra toda la ventana */
+    background-repeat: no-repeat; /* Evitar la repetición de la imagen */
+    background-attachment: fixed; /* Fijar la imagen de fondo al desplazar */
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo semitransparente */
+}
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: #050505 ;
+    color: #ffffff ; 
+    
+    
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.centro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.seccion1,
+.seccion1 > a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+
+
+
+.agregarlink {
+    text-decoration: none; /* Quita el subrayado por defecto en los enlaces */
+    background-color:#141414; /* Fondo negro */
+    color: #ffffff; /* Texto blanco */
+    padding: 5px 10px; /* Espaciado interior */
+    
+    transition: background-color 0.3s, color 0.3s; /* Transición para animar cambios */
+    margin: 30px;
+}
+
+a:hover {
+    background-color: #ffffff; /* Fondo blanco al pasar el cursor */
+    color: #000000; /* Texto negro al pasar el cursor */
+}
+
+a:active {
+    background-color: #032830; /* Fondo amarillo al hacer clic */
+    color: #000000; /* Texto negro al hacer clic */
+}
+
+
+
+
+
+
+
+.tabla {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar verticalmente las filas */
+    margin-bottom: 5%;
+}
+
+.tabla > thead > tr > th {
+    background-color: #141414;
+    color: #ffffff;
+    text-align: center; /* Centrar horizontalmente el contenido de las celdas del encabezado */
+
+}
+
+
+.tabla > thead > tr > th,
+.tabla > tbody > tr > td {
+    padding: 15px;
+    text-align: center; /* Centrar horizontalmente el contenido de las celdas de datos */
+    width: 140px;
+}
+
+.tabla > tbody > tr > td > a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
